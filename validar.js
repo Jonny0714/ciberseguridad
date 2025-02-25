@@ -36,7 +36,8 @@ function validar(form) {
 
     // Si todo es válido
     return true;
-}function etiqueta(texto){
+    function etiqueta(texto){
     const regex = /<[^>]+>/;
     return regex.test(texto);
+}
 }
