@@ -32,7 +32,7 @@ function validar(form) {
         edad = null ;
         nombre =null;
         return false;
-    }
+    }alert("todo bien")
 
     // Si todo es válido
     return true;
