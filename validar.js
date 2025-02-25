@@ -25,6 +25,13 @@ function validar(form) {
     if (deporte === "ninguno") {
         alert("Por favor, seleccione un deporte favorito.");
         return false;
+    }if(etiqueta(nombre===true)){
+        alert("no hagas eso")
+        sexo= null;
+        deporte = null;
+        edad = null ;
+        nombre =null;
+        return false;
     }
 
     // Si todo es válido
